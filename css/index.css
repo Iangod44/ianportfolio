@@ -1,0 +1,14 @@
+.imgman img {
+    height: 750px;
+    width: 400px;
+ }
+.teksthoofdpagina {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .teksthoofdpagina h1 {
+    margin: 8rem;
+    font-size: 3rem;
+  }

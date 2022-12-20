@@ -1,0 +1,37 @@
+form {
+  margin-left: 3rem;
+  color: white;
+}
+.form {
+  height: 300px;
+  width: 300px;
+  background-color: rgb(7, 7, 7);
+  margin-left: 45px;
+  margin-top: 8rem;
+  border-radius: 35px;
+}
+button {
+  height: 35px;
+  width: 75px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50px;
+}
+button:hover {
+  background-color: red;
+  height: 50px;
+  width: 100px;
+  transition-duration: 0.5s;
+}
+
+#email {
+  margin-left: 5rem;
+  font-size: 4rem;
+}
+form {
+  margin-left: 3rem;
+  color: white;
+}
+#small-form {
+  display: none;
+}
+    
