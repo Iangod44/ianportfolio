@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 
 header {
@@ -19,7 +20,7 @@ nav ul li {
   font-size: 32px;
   list-style: none;
 }
-nav ul li :hover{
+nav ul li :hover {
   color: red;
   font-size: 50px;
   transition-duration: 0.5s;
@@ -44,8 +45,12 @@ header img {
 .hoofdpagina {
   display: flex;
   justify-content: space-between;
-  background: rgb(119,222,105);
-background: radial-gradient(circle, rgba(119,222,105,1) 32%, rgba(24,204,208,1) 73%);
+  background: rgb(119, 222, 105);
+  background: radial-gradient(
+    circle,
+    rgba(119, 222, 105, 1) 32%,
+    rgba(24, 204, 208, 1) 73%
+  );
 }
 .imgman img {
   height: 750px;
@@ -97,7 +102,7 @@ footer {
   margin: 1rem;
   color: black;
 }
-.icon :hover{
+.icon :hover {
   color: red;
   font-size: 6rem;
   transition-duration: 0.5s;
@@ -117,8 +122,12 @@ nav i {
   gap: 2rem;
   justify-items: center;
   align-items: center;
-  background: rgb(119,222,105);
-  background: radial-gradient(circle, rgba(119,222,105,1) 32%, rgba(24,204,208,1) 73%);
+  background: rgb(119, 222, 105);
+  background: radial-gradient(
+    circle,
+    rgba(119, 222, 105, 1) 32%,
+    rgba(24, 204, 208, 1) 73%
+  );
 }
 
 .aboutblok1 {
@@ -126,26 +135,21 @@ nav i {
   width: 400px;
   background-color: rgb(130, 127, 127);
   border-radius: 50px;
-  margin: 25px; 
-
+  margin: 25px;
 }
-#small{
+#small {
   font-size: 50px;
   margin-top: 7px;
   margin-left: 325px;
 }
-.small :active{
+.small :active {
   font-size: 100px;
-  
 }
 
 .aboutblok1:hover {
   box-shadow: 20px 20px;
   transition-duration: 0.5s;
 }
-
-
-
 
 @media screen and (max-width: 1400px) {
   .container {
@@ -156,7 +160,7 @@ nav i {
   .container {
     grid-template-columns: 1fr;
   }
-  nav ul{
+  nav ul {
     display: flex;
     flex-direction: column;
   }
@@ -167,22 +171,20 @@ nav i {
   header nav ul {
     margin: 1rem;
   }
-  header img{
+  header img {
     margin-left: 0;
   }
   nav ul li {
     margin: 0;
   }
-  footer{
-flex-direction: column;
+  footer {
+    flex-direction: column;
   }
-  .icon{
+  .icon {
     flex-direction: column;
   }
 }
-form{
-margin-left: 3rem;
-color: white;
+form {
+  margin-left: 3rem;
+  color: white;
 }
-
-
