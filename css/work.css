@@ -1,0 +1,20 @@
+/* hier style ik me programeeer talen blokken */
+.programmeertalen {
+  background-color: #ccd5ae;
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  border-radius: 25px;
+}
+.programmeertalen-achtergrond {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.programmeertalen:hover {
+  box-shadow: 10px 10px;
+  transition-duration: 0.5s;
+}

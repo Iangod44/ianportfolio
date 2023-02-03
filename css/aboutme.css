@@ -1,0 +1,6 @@
+/* hier maak ik de img van me aboutme pagina */
+img {
+    height: 700px;
+    width: 500px;
+    border-radius: 50px;
+}

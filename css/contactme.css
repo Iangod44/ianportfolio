@@ -1,6 +1,7 @@
+/* hier style ik me formulier */
 form {
-  margin-left: 3rem;
-  color: white;
+  margin-left: 5rem;
+  color:rgb(255, 255, 255);
 }
 .form {
   height: 300px;
@@ -10,9 +11,10 @@ form {
   margin-top: 8rem;
   border-radius: 35px;
 }
+/* hier style ik me button van me formulier*/
 button {
-  height: 35px;
-  width: 75px;
+  height: 85px;
+  width: 85px;
   background-color: rgb(255, 255, 255);
   border-radius: 50px;
 }
@@ -34,4 +36,9 @@ form {
 #small-form {
   display: none;
 }
-    
+#formulier{
+margin-top: 5rem;
+}
+.contactknop{
+  font-size: 20px;
+}

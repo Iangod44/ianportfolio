@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- hier link ik mijn documenten -->
     <link rel="stylesheet" href="../css/portfolio.css" />
     <link rel="stylesheet" href="/css/contactme.css" />
     <link
@@ -10,58 +11,64 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <title>contactme</title>
   </head>
   <body>
+    <!-- hier maak ik mijn navigatie balk -->
     <header>
       <nav>
+        <a href="../html/index.html"
+          ><img src="../img/homebtn.png" alt="home logo"
+        /></a>
         <ul>
-      <li>  <a href="../html/index.html"
-          ><img src="../img/huis knopje.png" alt="home logo"
-        /></a></li>
-     
           <li><a href="../html/work.html">My work</a></li>
           <li><a href="../html/contactme.html">Contact me</a></li>
           <li><a href="../html/aboutme.html">About me</a></li>
-     
-      <li>  <i class="fa-solid fa-download">
+        </ul>
+        <i class="fa-solid fa-download">
           <a class="download" href="../css/library.css" download=""></a
-        ></i></li>
-      </ul>
+        ></i>
       </nav>
     </header>
-
+    <!-- hier maak ik mijn blokken en container-->
     <div class="container">
-      <div class="aboutblok1">
-        <h1 id="email">e-mail=</h1>
-        <br /><br />
-        <h1 id="rocnijmegen">1200900@student.roc-nijmegen.nl</h1>
-      </div>
-      <div class="aboutblok1" id="aboutblok">
-        <div id="small" onclick="verdwijnBlok()">
-          <i class="fa-solid fa-minimize"></i>
+      <div class="aboutblok">
+        <div class="bloktekst">
+          <!-- hier maak ik de titel van het eerste blok -->
+          <h1>mijn gegevens</h1>
+          <!-- hier maak ik mijn mail knop en mijn telefoonnummer knop  -->
+          <div class="mailknop">
+            <a href="mailto:IandeWater1@gmail.com"
+              ><i class="fa-regular fa-envelope"></i
+            ></a>
+          </div>
+          <div class="telknop">
+            <a href="tel:0657585309"
+              ><i class="fa-sharp fa-solid fa-phone"></i
+            ></a>
+          </div>
         </div>
       </div>
-
-      <div class="aboutblok1">
-        <div id="small-form" onclick="verdwijnBlok()">
-          <i class="fa-solid fa-minimize"></i>
-        </div>
+      <!-- hier maak ik nog een blok -->
+      <div class="aboutblok">
+        <!-- hier maak ik mijn formulier -->
+        <h1 id="formulier">form</h1>
         <div class="form">
-          <form action="">
-            <label for="naam">naam:</label> <br />
+          <form action="form">
+            <label >naam:</label> <br />
             <input type="text" /><br /><br />
-            <label for="bedrijf">bedrijf:</label><br />
+            <label >bedrijf:</label><br />
             <input type="text" /><br /><br />
-            <label for="e-mail">e-mail:</label><br />
+            <label >e-mail:</label><br />
             <input type="text" /><br /><br />
-            <label for="telefoonnummer">telefoonnummer:</label><br />
+            <label >telefoonnummer:</label><br />
             <input type="number" /><br /><br />
             <button>submit</button>
           </form>
         </div>
       </div>
     </div>
-
+    <!-- hier maak ik mijn footer  -->
     <footer>
       <h2>Gemaakt door: Ian de Water</h2>
       <div class="icon">
